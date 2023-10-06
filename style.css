@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p,h2 {
+    font-weight: bold;
+}
+
+.dad{
+    display: flex;
+    flex-wrap: wrap;
+
+    box-shadow: 1px 1px 15px hsl(0deg 0% 0% / 31%) ;
+}
+
+.son1{
+    background-color: hsl(247.06deg 89.47% 59.02%);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.your-result{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: hsl(252.86deg 100% 86.27%);
+}
+
+.circal{
+    margin: auto;
+    margin-top: 15px;
+    width: 130px;
+    height: 130px;
+    background-color: hsl(248.47deg 72.24% 51.96%);
+    color: white;
+    /* font-weight: bold; */
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.r76{
+
+    font-size: 37px;
+
+}
+
+.great{
+    text-align: center;
+    /* font-weight: bold; */
+    color: white;
+    margin-top: 15px;
+}
+
+.great-p{
+    text-align: center;
+    margin-top: 15px;
+    color: hsl(242.17deg 100% 83.73%);
+    padding: 0px 60px;
+    margin-bottom: 30px;
+}
+
+.son2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.sum{
+    margin: 15px;
+    font-size: 18px;
+}
+
+.flex-summary-div{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.red-back{
+    background-color: hsl(6deg 100% 98.04%);
+}
+
+.red-back .p{
+    color: hsl(358.95deg 69.51% 67.84%);
+}
+
+.yallow-back{
+    background-color: hsl(41.54deg 100% 97.45%);
+}
+
+.yallow-back .p{
+    color: hsl(42.14deg 87.92% 70.78%);
+}
+
+.green-back{
+    background-color: hsl(173.33deg 52.94% 96.67%);
+}
+
+.green-back .p{
+    color: hsl(164.48deg 49.57% 45.88%);
+}
+
+.blue-back{
+    background-color:hsl(240deg 71.43% 97.25%);
+}
+
+.blue-back .p{
+    color: hsl(235.65deg 27.27% 49.61%);
+}
+
+.flex-summary-div span{
+    color:hsl(252.86deg 100% 86.27%);
+}
+
+
+.button{
+    background-color: hsl(223.9deg 29.93% 26.86%);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    margin: 30px 10px;
+
+}
+
+.button:active{
+    background-color: hsl(242.89deg 81.66% 55.1%);
+}
+
+
+
+@media only screen and (min-width: 627px)  {
+    .dad{
+        flex-wrap: nowrap;
+        width: 600px;
+        border-radius: 30px;
+        margin: 80px auto;
+    }
+
+    .son1{
+        border-radius: 30px;
+    }
+
+    .great-p{
+        padding: 0 30px;
+    }
+    .flex-summary-div{
+        padding: 17px;
+    }
+}
